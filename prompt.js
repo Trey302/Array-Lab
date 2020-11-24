@@ -5,7 +5,7 @@ console.log(songs[2])
 songs.splice(4, 1, "Happy");
 console.log(songs);
 
-let jamFour = songs[3];
+let newFour = songs[3];
 songs.push("3 Headed Goat");
 songs.pop();
 
