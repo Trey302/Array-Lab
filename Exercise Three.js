@@ -5,4 +5,8 @@ let list = [
 ];
 
 // console.log(list[2][2]);
-list.splice(0, 1, "Ark")
+list.splice(1, 0, "Ark")
+
+for (let i = 0; i < list.length; i++) {
+    console.log(`${list[i]}`)
+};
